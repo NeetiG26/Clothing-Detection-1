@@ -67,7 +67,7 @@ else:
 
 
 
-while(True):
+def main():
     path = input('img path: ')
     if not os.path.exists(path):
         print('Img does not exists..')
